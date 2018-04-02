@@ -1,0 +1,25 @@
+{% extends 'master/master-unlogged.html.twig' %}
+
+{% block pageContent %}
+
+
+
+    <div style="display: none;" class="content">
+        <h2 class="title-main">LOREM IPSUM</h2>
+        <h5 class="subtitle-main">lorem ipsum</h5>
+        <pre>$(lorem).function(){}</pre>
+        <table class="table table-bordered table-hover">
+            <tbody>
+            {% for i in 0..20 %}
+                <tr>
+                    <td><a href="#">Lorem ipsum</a></td>
+                    <td>Lorem ipsum</td>
+                    <td>Lorem ipsum</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+{% endblock %}
+

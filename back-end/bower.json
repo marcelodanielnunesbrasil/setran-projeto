@@ -1,0 +1,19 @@
+{
+  "name": "setran-projeto",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Marcelo Daniel <marcelodaniel.daniel@gmail.com>"
+  ],
+  "homepage": "",
+  "private": true,
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}
